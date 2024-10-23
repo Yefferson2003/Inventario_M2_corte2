@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Inventario</string>
+    <string name="titulo_app">INVENTORY</string>
+    <string name="boton_home">Empezar…</string>
+    <string name="icono_img">icono_img</string>
+    <string name="lema">"Control total, inventario sin igual."</string>
+    <string name="titulo_login">!Bienvenido¡</string>
+    <string name="titulo_register">!Únete a Nuestra App¡</string>
+    <string name="login_usuario">Usuario</string>
+    <string name="login_contraseña">Contraseña</string>
+    <string name="login_usuario_input">Ingrese su Usuario</string>
+    <string name="login_contraseña_input">Ingrese su Contraseña</string>
+    <string name="login_usuario_input_hit">Ingrese su Usuario</string>
+    <string name="login_contraseña_input_hit">Ingrese su Contraseña</string>
+    <string name="buton_login_register">Crear Cuenta</string>
+    <string name="buton_login">Iniciar Sesión</string>
+    <string name="register_correo">Correo</string>
+    <string name="register_correo_input">Ingrese su Correo</string>
+    <string name="buton_register">Registrar</string>
+    <string name="buton_add_product">Agregar Producto</string>
+    <string name="user_icono">Foto del usuario</string>
+    <string name="back_icono">Icono de Regresar</string>
+    <string name="ID">ID</string>
+    <string name="product_name_label">Nombre del Producto</string>
+    <string name="product_name">Producto</string>
+    <string name="product_description_label">Descripción del Producto</string>
+    <string name="titulo_add">Nuevo Producto</string>
+    <string name="titulo_edit">Editar</string>
+    <string name="buton_save">Guardar Producto</string>
+    <string name="button_delete_description">Eliminar Producto</string>
+    <string name="button_image">Seleccionar Imagen</string>
+    <string name="button_image_cam">Tomar Foto</string>
+    <string name="or">Ó</string>
+    <string name="product_description">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500</string>
+
+    <string name="click_to_login">Ingresar a Login</string>
+
+    <string name="nit_label">Nit</string>
+    <string name="nit">Nit del Producto</string>
+    <string name="price_label">Precio</string>
+    <string name="price">Precio del Producto</string>
+    <string name="quantity_label">Cantidad</string>
+    <string name="quantity">Cantidad de Productos</string>
+    <string name="searchproduct">Buscar Productos</string>
+    <string name="edit_buton">Editar Producto</string>
+
+    <string name="_1">1</string>
+    <string name="producto_a">Producto A</string>
+    <string name="_2">2</string>
+    <string name="producto_b">Producto B</string>
+    <string name="_3">3</string>
+    <string name="producto_c">Producto C</string>
+
+</resources>

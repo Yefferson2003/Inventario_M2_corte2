@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <!-- Tonos de amarillo -->
+    <color name="yellow_light">#FFF9C4</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="yellow_dark">#FBC02D</color>
+    <color name="yellow_deep">#F57F17</color>
+
+    <!-- Blanco -->
+    <color name="white">#FFFFFF</color>
+
+    <!-- Tonos de gris -->
+    <color name="grey_light">#F5F5F5</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="grey_dark">#616161</color>
+    <color name="grey_deep">#424242</color>
+</resources>
