@@ -44,6 +44,8 @@
     <string name="searchproduct">Buscar Productos</string>
     <string name="edit_buton">Editar Producto</string>
 
+    <string name="take_photo">Take Photo</string>
+
     <string name="_1">1</string>
     <string name="producto_a">Producto A</string>
     <string name="_2">2</string>

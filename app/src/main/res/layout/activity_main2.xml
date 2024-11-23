@@ -5,109 +5,114 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey_light"
+    android:background="@color/fondo"
     tools:context=".MainActivity2">
+
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="77dp"
+        android:layout_marginTop="11dp"
         android:text="@string/titulo_login"
-        android:textColor="@color/yellow"
+        android:textColor="@color/letra"
         android:textSize="60sp"
         android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextContrastCheck" />
-
-    <TextView
-        android:id="@+id/text_usuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
-        android:text="@string/login_usuario"
-        android:textColor="@color/yellow_deep"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/text_usuario"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/input_correo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="64dp"
         android:background="@drawable/shape"
         android:ems="10"
         android:hint="@string/login_usuario_input_hit"
         android:importantForAutofill="no"
-
         android:inputType="text"
         android:padding="12dp"
-        android:text="@string/login_usuario_input"
+        android:textColor="@color/letra"
         android:textSize="24sp"
         app:circularflow_defaultRadius="16dp"
-        app:layout_constraintStart_toStartOf="@+id/text_usuario"
-        app:layout_constraintTop_toBottomOf="@+id/text_usuario" />
-
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="43dp"
-        android:layout_marginTop="31dp"
-        android:importantForAutofill="no"
-        android:text="@string/login_contraseña"
-        android:textColor="@color/yellow_deep"
-        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_correo"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
         android:id="@+id/input_password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="66dp"
         android:background="@drawable/shape"
         android:ems="10"
         android:hint="@string/login_contraseña_input_hit"
         android:importantForAutofill="no"
         android:inputType="text"
         android:padding="12dp"
-        android:text="@string/login_contraseña_input"
+        android:textColor="@color/letra"
         android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintBottom_toTopOf="@+id/toReg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="14dp"
+        android:importantForAutofill="no"
+        android:text="@string/login_contraseña"
+        android:textColor="@color/letra"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/input_password"
+        app:layout_constraintStart_toStartOf="@+id/input_password"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/text_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/login_usuario"
+        android:textColor="@color/letra"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/input_correo"
+        app:layout_constraintStart_toStartOf="@+id/input_correo"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/toReg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="16dp"
         android:background="@android:color/transparent"
         android:text="@string/buton_login_register"
-        android:textColor="@color/grey_dark"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@+id/login"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_password" />
+        android:textColor="@color/letra"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/login"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/buton_rounde"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="111dp"
+        android:backgroundTint="@color/amarillo"
         android:text="@string/buton_login"
-        android:textSize="16sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/toReg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/toReg" />
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/group"
@@ -123,11 +128,11 @@
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="37dp"
+        android:layout_marginTop="29dp"
         android:contentDescription="@string/icono_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/flatuibox"
         tools:ignore="ImageContrastCheck" />
 

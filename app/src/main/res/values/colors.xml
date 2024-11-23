@@ -9,6 +9,10 @@
 
     <!-- Blanco -->
     <color name="white">#FFFFFF</color>
+    <color name="fondo">#F4E9CD</color>
+    <color name="amarillo">#E28413</color>
+    <color name="letra">#254441</color>
+
 
     <!-- Tonos de gris -->
     <color name="grey_light">#F5F5F5</color>
